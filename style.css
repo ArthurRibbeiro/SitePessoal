@@ -17,7 +17,6 @@ body{
 .lightInter {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 300;
   font-style: normal;
   font-variation-settings:
     "slnt" 0;
@@ -74,12 +73,20 @@ h3{
     font-weight: 100;
 }
 
-.gradientTittle{
-
+.boldTitle{
     font-weight: 600;
-    
+}
+
+.slimTitle{
+  font-weight: 300;
+}
+
+.gradient{
     transition: color 0.01s ease;
-    
+}
+
+.texto{
+    font-weight: 200;
 }
 
 .painel{
@@ -88,7 +95,6 @@ h3{
     align-items: center;
     
 }
-
 
 .half{
     display: flex;
@@ -105,9 +111,7 @@ h3{
     height: 205px;
     width: 100px;
     
-
 }
-
 
 .i1x1 {
     height: 100px;
@@ -134,3 +138,14 @@ h3{
     margin: 30px;
 }
 
+.rodape{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    margin: 30px;
+}
+
+.rodape h3{
+    margin: 0
+}

@@ -1,36 +1,30 @@
 document.addEventListener("DOMContentLoaded", function () {
-    var textElements = document.querySelectorAll(".gradientTittle");
+    var textElements = document.querySelectorAll(".gradient");
 
     const recalculaCor = () => {
-        var scrollPosition = window.scrollY;
-        
         var ired = 26;
         var igreen = 48;
         var iblue = 255;
 
-        var fred = 182;
+        var fred = 127;
         var fgreen = 0;
-        var fblue = 229;
-
-
+        var fblue = 178;
 
         textElements.forEach(function (element) {
 
             var retangulo = element.getBoundingClientRect();
-            var posicaoTopNaTela = retangulo.top + window.scrollY;
-            console.log(retangulo.top)
 
-
+            porcentPosicCima = retangulo.top /window.innerHeight
             porcentPosic = retangulo.bottom /window.innerHeight
 
-            if (porcentPosic > 0.1 && porcentPosic <= 0.90){
+            if (porcentPosic > 0 && porcentPosicCima <= 1){
                 // Calcular e ajustar a cor conforme o scroll
                 //var percentScrolled = (scrollPosition - elementPosition) / element.offsetHeight;
 
                 
                 var red = (ired) + ((fred - ired) * porcentPosic) 
                 var green = (igreen) + ((fgreen - igreen) * porcentPosic) 
-                var blue = (iblue) + ((fred - ired) * porcentPosic) 
+                var blue = (iblue) + ((fblue - iblue) * porcentPosic) 
 
                 element.style.color = "rgb(" + red + "," + green + "," + blue + ")";
             }
@@ -39,7 +33,7 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     }
 
-    recalculaCor
+    recalculaCor()
 
     window.addEventListener("scroll", recalculaCor);
 });
