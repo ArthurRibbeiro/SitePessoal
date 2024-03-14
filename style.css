@@ -1,0 +1,153 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: linear-gradient(to bottom right, #D5C1FF, #D4EAFF);
+
+    
+    
+}
+
+.back{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, #1A30FF, #b700ff);
+    clip-path:  ;
+}
+
+
+.lightInter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+}
+
+.lightInter span{
+    font-weight: 600;
+    background: linear-gradient(to bottom right, #5100ff, #002aff);
+    background-clip: text;
+-webkit-background-clip: text;
+color: transparent;
+
+    
+}
+
+
+
+
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+.logoSpace{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+
+.logoSpace img:first-child{
+    width: 65px;
+}
+
+.logoSpace img:last-child{
+    width: 90px;
+}
+.navbar {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 100%;
+    margin: 5px;
+}
+
+
+.navbar ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:center;
+    list-style: none;
+}
+
+.navbar li{
+    margin-right: 10px;
+}
+
+h3{
+    margin: 20px 30px;
+    font-size: 30px;
+    font-weight: 100;
+}
+
+.gradientTittle{
+    
+    transition: color 0.5s ease;
+    
+}
+
+.painel{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+
+.half{
+    display: flex;
+
+}
+
+#i2x1 {
+    height: 205px;
+    width: 100px;   
+    margin: 5px 5px 0px 0px;
+}
+
+#i2x1 img{
+    height: 205px;
+    width: 100px;
+    
+
+}
+
+
+.i1x1 {
+    height: 100px;
+    width: 100x;
+    margin: 5px 5px 0px 0px;
+}
+
+.i1x1 img{
+    height: 100px;
+    width: 100x;
+}
+
+.i2x2 img{
+    height: 205px;
+    width: 205px;
+}
+.i2x2 {
+    height: 205px;
+    width: 205px;
+    margin: 5px 5px 0px 0px;
+}
+
+.sobre{
+    margin: 30px;
+}
+
