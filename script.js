@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
     var textElements = document.querySelectorAll(".gradientTittle");
 
-    window.addEventListener("scroll", function () {
+    const recalculaCor = () => {
         var scrollPosition = window.scrollY;
         
         var ired = 26;
@@ -37,5 +37,9 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
         });
-    });
+    }
+
+    recalculaCor
+
+    window.addEventListener("scroll", recalculaCor);
 });

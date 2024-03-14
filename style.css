@@ -4,9 +4,6 @@
 }
 body{
     background: linear-gradient(to bottom right, #D5C1FF, #D4EAFF);
-
-    
-    
 }
 
 .back{
@@ -17,7 +14,6 @@ body{
     clip-path:  ;
 }
 
-
 .lightInter {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
@@ -26,20 +22,6 @@ body{
   font-variation-settings:
     "slnt" 0;
 }
-
-.lightInter span{
-    font-weight: 600;
-    background: linear-gradient(to bottom right, #5100ff, #002aff);
-    background-clip: text;
--webkit-background-clip: text;
-color: transparent;
-
-    
-}
-
-
-
-
 
 .cabecalho{
     display: flex;
@@ -74,7 +56,6 @@ color: transparent;
     margin: 5px;
 }
 
-
 .navbar ul{
     display: flex;
     flex-direction: row;
@@ -94,8 +75,10 @@ h3{
 }
 
 .gradientTittle{
+
+    font-weight: 600;
     
-    transition: color 0.5s ease;
+    transition: color 0.01s ease;
     
 }
 
