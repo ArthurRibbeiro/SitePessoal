@@ -95,54 +95,9 @@ h3{
     font-weight: 300;
 }
 
-.painel{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    
-}
 
-.half{
-    display: flex;
 
-}
 
-#i2x1 {
-    height: 205px;
-    width: 100px;   
-    margin: 5px 5px 0px 0px;
-}
-
-#i2x1 img{
-    height: 205px;
-    width: 100px;
-    
-}
-
-.i1x1 {
-    height: 100px;
-    width: 100x;
-    margin: 5px 5px 0px 0px;
-}
-
-.i1x1 img{
-    height: 100px;
-    width: 100x;
-}
-
-.i2x2 img{
-    height: 205px;
-    width: 205px;
-}
-.i2x2 {
-    height: 205px;
-    width: 205px;
-    margin: 5px 5px 0px 0px;
-}
-
-.sobre{
-    margin: 30px;
-}
 
 .rodape{
     display: flex;
