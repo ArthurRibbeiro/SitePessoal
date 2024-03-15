@@ -96,6 +96,41 @@ h3{
 }
 
 
+#gitHubBtn{
+    background-color: #08092E;
+    color: #D4EAFF;
+    margin: 30px 60px;
+    padding: 15px;
+    border-radius: 8px;
+
+    font-size: 30px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+
+}
+
+
+.linha{
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-around;
+
+
+}
+
+.celula{
+    background-color: #08092E;
+    color: #D4EAFF;
+
+    padding: 20px;
+    margin: 10px 0px;
+    font-size: 20px;
+}
+
 
 
 
