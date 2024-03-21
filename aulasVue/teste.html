@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello World!</title>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+</head>
+<body>
+    
+    <div id="app">
+        <h3>
+            {{ inputName }}
+            <br>
+            {{ idade }}
+        </h3>
+
+        <fieldset>
+            <legend> mamamia</legend>
+            <form id="app-form">
+                <label for="nome">valor 1</label>
+                <input type="number"  v-model="N1" v-on:keyup=calcular placeholder="Valor 1" >
+                <br>
+                <label for="nome">valor 2</label>
+                <input type="number"  v-model="N2" v-on:keyup=calcular placeholder="Valor 2" >
+            </form>
+
+            <p>soma: {{ soma }} </p>
+            <p>sub : {{ sub }} </p>
+            <p>mult: {{ mult }} </p>
+            <p>div : {{ div }} </p>
+        </fieldset>
+
+        
+
+        <!--
+
+            <label for="gay">vc eh boiola?</label>
+            <input type="checkbox" name="gay" id="gay">
+            
+            <h3>ENTAO VC GOSTA DE DAR A BUNDAMMMM???</h3>
+        -->
+    </div>
+    
+    
+    
+    
+    <script src="./app.js"></script>
+</body>
+</html>
