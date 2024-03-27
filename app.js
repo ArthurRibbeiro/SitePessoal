@@ -3,7 +3,7 @@
 
 //template dos componentes de cabeçalho e rodapé
 const cabecalho = {
-    template:`
+    template: `
     
     <div class="cabecalho">
         <div class="logoSpace">
@@ -20,11 +20,14 @@ const cabecalho = {
         </div>
     </div>
 
-    `
+    `,
+    mounted() {
+        mudaCor();
+    }
 }
 
 const rodape = {
-    template:`
+    template: `
     
     <div class="rodape lightInter ">
             <div id="meEncontre">
@@ -50,7 +53,7 @@ const rodape = {
 //templates das páginas de conteúdo
 
 const about = {
-    template:`
+    template: `
     
     <link rel="stylesheet" href="/about/about.css">
     
@@ -119,11 +122,14 @@ const about = {
             </div>     
         </div>
     
-    `
+    `,
+    mounted() {
+        mudaCor();
+    }
 }
 
 const dev = {
-    template:`
+    template: `
     
     <link rel="stylesheet" href="/develop/dev.css">
     <div id="repositorio">
@@ -181,11 +187,14 @@ const dev = {
 
         </div>
     </div>
-    `
+    `,
+    mounted() {
+        mudaCor();
+    }
 }
 
 const knowledge = {
-    template:`
+    template: `
     
     <link rel="stylesheet" href="/knowledge/knowledge.css">
     <div class="probox">
@@ -304,7 +313,10 @@ const knowledge = {
         </div>
     </div>
     
-    `
+    `,
+    mounted() {
+        mudaCor();
+    }
 }
 
 //Estabelecimento de rotas
@@ -313,22 +325,22 @@ const knowledge = {
 const router = VueRouter.createRouter({
     history: VueRouter.createWebHashHistory(),
     routes: [
-    {path: '/' , component: about},
-    {path: '/about' , component: about},
-    {path: '/knowledge' , component: knowledge},
-    {path: '/dev', component: dev}
-]
-  })
+        { path: '/', component: about },
+        { path: '/about', component: about },
+        { path: '/knowledge', component: knowledge },
+        { path: '/dev', component: dev }
+    ]
+})
 
 
 // criaçao da instancia do Vue
 const aplicacao = {
-    data(){
-        return{
+    data() {
+        return {
 
         };
     },
-    methods:{
+    methods: {
 
     },
 

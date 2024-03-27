@@ -91,6 +91,7 @@ h3{
 }
 
 .gradient{
+    color: rgb(152, 42, 255);
     transition: color 0.01s ease;
 }
 
