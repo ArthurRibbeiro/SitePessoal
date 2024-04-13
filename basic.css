@@ -49,11 +49,11 @@ a{
 
 
 .logoSpace img:first-child{
-    width: 50px;
+    width: 35%;
 }
 
 .logoSpace img:last-child{
-    width: 80px;
+    width: 60%;
 }
 .navbar {
     display: flex;
@@ -73,7 +73,7 @@ a{
 
 .navbar li{
     margin-right: 10px;
-    font-size: 14px;
+    font-size: 3vw;
 }
 
 h3{
@@ -122,4 +122,8 @@ h3{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+}
+
+.texto-centro{
+    text-align: center;
 }

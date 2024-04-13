@@ -5,13 +5,13 @@
 const cabecalho = {
     template: `
     
-    <div class="cabecalho">
-        <div class="logoSpace">
+    <div class="cabecalho  row">
+        <div class="logoSpace col s5">
             <img src="/Untitled (Copy)/Group 2294.png" alt="">
             <img src="/Untitled (Copy)/Atualiz.art.png" alt="">
 
         </div>
-        <div class="navbar lightInter">
+        <div class="navbar lightInter col s7">
             <ul>
             <li><RouterLink to="/">sobre</RouterLink></li>
             <li><RouterLink to="/knowledge">profissional</RouterLink></li>
@@ -61,14 +61,16 @@ const about = {
 
         <h3 class="lightInter slimTitle">A forma como <span class="gradient boldTitle">mesclamos</span> nossos <span class="gradient boldTitle">conhecimentos</span> é o que nos torna <span class="gradient boldTitle">indivíduos</span></h3>
     
-        <div class="painel">
+        <div class=" container row">
     
-            <div class="half">
+            <div class="half col s12">
     
-                <div id="i2x1" class="i2x1">
+                <div id="i2x1" class="i2x1 col s4 ">
+
                     <img src="/Untitled (Copy)/bartend_2x1.png" alt="">
+
                 </div>
-                <div class="i2x1">
+                <div class="i2x1 col s4">
                     <div class="i1x1">
                         <img src="/Untitled (Copy)/cgDraw3_1x1.jpeg" alt="">
                     </div>
@@ -76,7 +78,7 @@ const about = {
                         <img src="/Untitled (Copy)/Drink_1x1.jpg" alt="">
                     </div>
                 </div>
-                <div class="i2x1">
+                <div class="i2x1 col s4">
                     <div class="i1x1">
                         <img src="/Untitled (Copy)/pc2_1x1.jpg" alt="">
                     </div>
@@ -85,8 +87,8 @@ const about = {
                     </div>
                 </div>
             </div>
-            <div class="half">
-                <div>
+            <div class="half col s12">
+                <div class=" col s4">
                     <div class="i1x1">
                         <img src="/Untitled (Copy)/dev1_1x1.png" alt="">
                     </div>
@@ -94,7 +96,7 @@ const about = {
                         <img src="/Untitled (Copy)/dev2_1x1.png" alt="">
                     </div>
                 </div>
-                <div class="i2x2">
+                <div class="i2x2 col s8">
                     <img src="/Untitled (Copy)/pc1_2x2.jpg" alt="">
                     
                 </div>
@@ -135,9 +137,9 @@ const dev = {
     <div id="repositorio">
         <h3 class="lightInter slimTitle">meu <span class="gradient boldTitle">repositório</span></h3>
 
-        <div id="gitHubBtn">
+        <div id="gitHubBtn" class="row container">
             <div></div>
-            <a href="https://github.com/ArthurRibbeiro"><div><h4 class="slimTitle lightInter">ArthurRibbeiro</h4></div></a>
+            <a href="https://github.com/ArtthurRibbeiro"><div><h4 class="slimTitle lightInter">ArtthurRibbeiro</h4></div></a>
         </div>
 
     </div>
@@ -145,36 +147,37 @@ const dev = {
     <div id="tecnologias">
         <h3 class="lightInter slimTitle">minhas <span class="gradient boldTitle">tecnologias</span></h3>
 
-        <div class="placa lightInter">
-            <div class="linha">
-                <div class="celula">Java</div>
-                <div class="celula">Python</div>
-            </div>
+        
+        <div class="lightInter row container">
             
-            <div class="linha">
-                <div class="celula">JavaScript</div>
-                <div class="celula">Vue</div>
-            </div>
+                <div class="celula col s5 m2 ">Java</div>
+                <div class="celula col s5 offset-s2 m2 offset-m1 ">Python</div>
+            
+            
+            
+                <div class="celula col s5 m2 offset-m1">JavaScript</div>
+                <div class="celula col s5 offset-s2 m2 offset-m1 ">Vue</div>
+            
 
-            <div class="linha">
-                <div class="celula">Materialize</div>
-                <div class="celula">Ionic</div>
-            </div>
+            
+                <div class="celula col s5 m2">Materialize</div>
+                <div class="celula col s5 offset-s2 m2 offset-m1 ">Ionic</div>
+            
 
-            <div class="linha">
-                <div class="celula">Node</div>
-                <div class="celula">React</div>
-            </div>
+            
+                <div class="celula col s5 m2 offset-m1">Node</div>
+                <div class="celula col s5 offset-s2 m2 offset-m1">React</div>
+            
 
-            <div class="linha">
-                <div class="celula">Git</div>
-                <div class="celula">Docker</div>
-            </div>
+            
+                <div class="celula col s5 m2">Git</div>
+                <div class="celula col s5 offset-s2 m2 offset-m1">Docker</div>
+            
         </div>
     </div>
     <div id="projeto">
         <h3 class="lightInter slimTitle">meus <span class="gradient boldTitle">projetos</span></h3>
-        <div class="projcard">
+        <div class="projcard container">
             <div class="projimg">
                 <img src="/Untitled (Copy)/Atualiz.art_multi.png" alt="">
             </div>
@@ -197,117 +200,123 @@ const knowledge = {
     template: `
     
     <link rel="stylesheet" href="/knowledge/knowledge.css">
-    <div class="probox">
-        <div class="proboxTitle">
-            <h3 class="lightInter slimTitle">como <span class="gradient boldTitle">desenvolvedor</span></h3>
-            <a href="../develop/dev.html"><button class="lightInter celula">saiba mais</button></a>
+    <div class="probox container">
+        <div class="proboxTitle row">
+            <h3 class="lightInter slimTitle col s9">como <span class="gradient boldTitle">desenvolvedor</span></h3>
+            <a class="col s3" href="../develop/dev.html"><button class="lightInter celula">saiba mais</button></a>
             
         </div>
         <div class="lightInter proboxShowcase">
-            <div class="half">
-                <div>
+            <div class="half row">
+                <div class ="col s6">
                     <span>tendo iniciado meus estudos em 2019 descobri ser a minha paixão. relembrando e realizando também um sonho de infancia</span>
 
                 </div>
-                <div>
+                <div class ="col s6">
                 <img src="../Untitled (Copy)/dev1_1x1.png" alt="">
                 </div>
             </div>
-            <div class="half bottom">
-                <div>
+            <div class="half row">
+
+            <div class ="col s6">
+                    <img src="../Untitled (Copy)/dev2_1x1.png" alt="">
+                </div>
+
+                <div class ="col s6">
                     <span>prosseguindo em 2022 na faculdade de ADS sigo adquirindo base de conhecimento e experiencia. hoje buscando uma oportunidade profissiona na area</span>
 
                 </div>
-                <div>
-                    <img src="../Untitled (Copy)/dev2_1x1.png" alt="">
-                </div>
+                
             </div>
 
         </div>
     </div>
 
-    <div class="probox">
-        <div class="proboxTitle">
-            <h3 class="lightInter slimTitle">como <span class="gradient boldTitle">PC builder</span></h3>
+    <div class="probox container">
+        <div class="proboxTitle row">
+            <h3 class="lightInter slimTitle col s12">como <span class="gradient boldTitle">PC builder</span></h3>
             
         </div>
         <div class="lightInter proboxShowcase">
-            <div class="half">
-                <div>
+            <div class="half row">
+                <div class="col s6">
                     <span>partindo de 2019 em um estágio se tornou minha fonte de renda autônoma durante a pandemia e uma das atividades mais prazerozas e estressantes ao mesmo tempo</span>
 
                 </div>
-                <div>
+                <div class="col s6">
                     <img src="../Untitled (Copy)/pc4_1x1.jpg" alt="">
                 </div>
             </div>
-            <div class="half bottom">
-                <div>
-                    <span>me tornei fascinado pela estética e potencial quando evoluí o nível das máquinas que montava.
-                        também sendo muito satisfatório estar realizando sonhos de quem sempre sonhou ter um pc gamer</span>
-                        
-                    </div>
-                    <div>
+            <div class="half row">
+                
+                    <div class="col s6">
                         <img src="../Untitled (Copy)/pc3_1x1.jpg" alt="">
                     </div>
-                </div>
+                    
+                    <div class="col s6">
+                    <span>me tornei fascinado pela estética e potencial quando evoluí o nível das máquinas que montava.
+                        também sendo muito satisfatório estar realizando sonhos de quem sempre sonhou ter um pc gamer</span>
+                    </div> 
+            </div>
 
         </div>
     </div>
 
-    <div class="probox">
-        <div class="proboxTitle">
-            <h3 class="lightInter slimTitle">como <span class="gradient boldTitle">bartender</span></h3>
+    <div class="probox container">
+        <div class="proboxTitle row">
+            <h3 class="lightInter slimTitle col s12">como <span class="gradient boldTitle">bartender</span></h3>
             
         </div>
         <div class="lightInter proboxShowcase">
-            <div class="half">
-                <div>
+            <div class="half row">
+                <div class="col s6">
                     <span>desde 2023 admirava as habilidades e o carisma que o bartender carrega. comecei a fazer drinks em família e trabalhar como freelance nos fins de semana</span>
 
                 </div>
-                <div>
+                <div class="col s6">
                 <img src="../Untitled (Copy)/bartend2_1x1.jpeg" alt="">
                 </div>
             </div>
-            <div class="half bottom">
-                <div>
+            <div class="half row">
+                <div class="col s6">
+                    <img src="../Untitled (Copy)/bartend3_1x1.jpeg" alt="">
+                </div>
+
+                <div class="col s6">
                     <span>ainda sigo aprendendo muita coisa, pretendo ler muitos livros sobre. acredito que o dever do bartender é manter o ambiente agradável. seja por bons drinks ou por seu carisma e senso de humor
                         um drink favorito? Mojito.</span>
-
-                </div>
-                <div>
-                    <img src="../Untitled (Copy)/bartend3_1x1.jpeg" alt="">
                 </div>
             </div>
 
         </div>
     </div>
 
-    <div class="probox">
-        <div class="proboxTitle">
-            <h3 class="lightInter slimTitle">como <span class="gradient boldTitle">artista</span></h3>
-            <a href="https://www.instagram.com/fejaum.dwg?igsh=MWllemJ4NGV4bHR6eA=="><button class="lightInter celula">saiba mais</button></a>
+    <div class="probox container">
+        <div class="proboxTitle row">
+            <h3 class="lightInter slimTitle col s9">como <span class="gradient boldTitle">artista</span></h3>
+            <a class="col s3" href="https://www.instagram.com/fejaum.dwg?igsh=MWllemJ4NGV4bHR6eA=="><button class="lightInter celula">saiba mais</button></a>
             
         </div>
         <div class="lightInter proboxShowcase">
-            <div class="half">
-                <div>
+            <div class="half row">
+                <div class="col s6">
                     <span>Desenho desde 2016 mas apenas em 2019 tive um foco maior em dedicar o tempo livre para melhorar o traço. subi um perfil no instagram postando com frequencia e criando uma comunidade</span>
 
                 </div>
-                <div>
+                <div class="col s6">
                 <img src="../Untitled (Copy)/cgDraw_1x1.jpeg" alt="">
                 </div>
             </div>
-            <div class="half bottom">
-                <div>
-                    <span>mas sendo o intagram conhecido por nao incentivar artistas, o alcance seguia diminuindo, o que gerou certo desanimo no perfil e decidi apenas desenhar sem foco nas postagens</span>
+            <div class="half row">
 
-                </div>
-                <div>
+                <div class="col s6">
                     <img src="../Untitled (Copy)/cgDraw2_1x1.jpeg" alt="">
                 </div>
+
+                <div class="col s6">
+                    <span>mas sendo o intagram conhecido por nao incentivar artistas, o alcance seguia diminuindo, o que gerou certo desanimo no perfil e decidi apenas desenhar sem foco nas postagens</span>
+                </div>
+                
             </div>
 
         </div>
