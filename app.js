@@ -7,8 +7,8 @@ const cabecalho = {
     
     <div class="cabecalho  row">
         <div class="logoSpace col s5">
-            <img src="Untitled (Copy)/Group 2294.png" alt="">
-            <img src="Untitled (Copy)/Atualiz.art.png" alt="">
+            <img src="images/Group 2294.png" alt="">
+            <img src="images/Atualiz.art.png" alt="">
 
         </div>
         <div class="navbar lightInter col s7">
@@ -67,37 +67,37 @@ const about = {
     
                 <div id="i2x1" class="i2x1 col s4 ">
 
-                    <img src="Untitled (Copy)/bartend_2x1.png" alt="">
+                    <img src="images/bartend_2x1.png" alt="">
 
                 </div>
                 <div class="i2x1 col s4">
                     <div class="i1x1">
-                        <img src="Untitled (Copy)/cgDraw3_1x1.jpeg" alt="">
+                        <img src="images/cgDraw3_1x1.jpeg" alt="">
                     </div>
                     <div class="i1x1">
-                        <img src="Untitled (Copy)/Drink_1x1.jpg" alt="">
+                        <img src="images/Drink_1x1.jpg" alt="">
                     </div>
                 </div>
                 <div class="i2x1 col s4">
                     <div class="i1x1">
-                        <img src="Untitled (Copy)/pc2_1x1.jpg" alt="">
+                        <img src="images/pc2_1x1.jpg" alt="">
                     </div>
                     <div class="i1x1">
-                        <img src="Untitled (Copy)/oneShotDraw_1x1.jpeg" alt="">
+                        <img src="images/oneShotDraw_1x1.jpeg" alt="">
                     </div>
                 </div>
             </div>
             <div class="half col s12">
                 <div class=" col s4">
                     <div class="i1x1">
-                        <img src="Untitled (Copy)/dev1_1x1.png" alt="">
+                        <img src="images/dev1_1x1.png" alt="">
                     </div>
                     <div class="i1x1">
-                        <img src="Untitled (Copy)/dev2_1x1.png" alt="">
+                        <img src="images/dev2_1x1.png" alt="">
                     </div>
                 </div>
                 <div class="i2x2 col s8">
-                    <img src="Untitled (Copy)/pc1_2x2.jpg" alt="">
+                    <img src="images/pc1_2x2.jpg" alt="">
                     
                 </div>
             </div>
@@ -179,7 +179,7 @@ const dev = {
         <h3 class="lightInter slimTitle">meus <span class="gradient boldTitle">projetos</span></h3>
         <div class="projcard container">
             <div class="projimg">
-                <img src="Untitled (Copy)/Atualiz.art_multi.png" alt="">
+                <img src="images/Atualiz.art_multi.png" alt="">
             </div>
             <div class="projdesc lightInter">
                 <h4 class="gradient boldTitle">Website pessoal</h4>
@@ -213,13 +213,13 @@ const knowledge = {
 
                 </div>
                 <div class ="col s6">
-                <img src="Untitled (Copy)/dev1_1x1.png" alt="">
+                <img src="images/dev1_1x1.png" alt="">
                 </div>
             </div>
             <div class="half row">
 
             <div class ="col s6">
-                    <img src="Untitled (Copy)/dev2_1x1.png" alt="">
+                    <img src="images/dev2_1x1.png" alt="">
                 </div>
 
                 <div class ="col s6">
@@ -244,13 +244,13 @@ const knowledge = {
 
                 </div>
                 <div class="col s6">
-                    <img src="Untitled (Copy)/pc4_1x1.jpg" alt="">
+                    <img src="images/pc4_1x1.jpg" alt="">
                 </div>
             </div>
             <div class="half row">
                 
                     <div class="col s6">
-                        <img src="Untitled (Copy)/pc3_1x1.jpg" alt="">
+                        <img src="images/pc3_1x1.jpg" alt="">
                     </div>
                     
                     <div class="col s6">
@@ -274,12 +274,12 @@ const knowledge = {
 
                 </div>
                 <div class="col s6">
-                <img src="Untitled (Copy)/bartend2_1x1.jpeg" alt="">
+                <img src="images/bartend2_1x1.jpeg" alt="">
                 </div>
             </div>
             <div class="half row">
                 <div class="col s6">
-                    <img src="Untitled (Copy)/bartend3_1x1.jpeg" alt="">
+                    <img src="images/bartend3_1x1.jpeg" alt="">
                 </div>
 
                 <div class="col s6">
@@ -304,13 +304,13 @@ const knowledge = {
 
                 </div>
                 <div class="col s6">
-                <img src="Untitled (Copy)/cgDraw_1x1.jpeg" alt="">
+                <img src="images/cgDraw_1x1.jpeg" alt="">
                 </div>
             </div>
             <div class="half row">
 
                 <div class="col s6">
-                    <img src="Untitled (Copy)/cgDraw2_1x1.jpeg" alt="">
+                    <img src="images/cgDraw2_1x1.jpeg" alt="">
                 </div>
 
                 <div class="col s6">
