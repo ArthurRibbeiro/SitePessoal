@@ -45,9 +45,33 @@
 }
 
 .sobre{
-    margin: 30px;
+    margin: 0 30px;
 }
 
 p{
     margin-bottom: 20px;
+}
+
+
+@media only screen and (min-width: 600px){
+    .conteudo{
+        padding: 0 5%;
+
+    }
+
+    .divisao{
+        display: flex;
+        align-items: center;
+    }
+
+    .titulo{
+        max-width: 45%;
+    }
+    .sobre{
+        margin: 0px;
+    }
+
+
+    
+
 }

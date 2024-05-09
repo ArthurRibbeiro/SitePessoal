@@ -1,5 +1,5 @@
 .proboxTitle {
-    margin-bottom: 40px;
+    margin-bottom: 7vw;
 }
 
 .proboxTitle button{
@@ -13,9 +13,7 @@
     color: white;
     font-size: 3.2vw;
     font-weight: 200;
-    margin-right: 35px ;
-    
-
+    margin-right: 35px;
 }
 
 .proboxTitle h3{
@@ -38,8 +36,6 @@
     flex-direction: row;
 }
 
-
-
 .half div{
     padding: 5px;
 }
@@ -47,6 +43,36 @@
 .bottom{
     text-align: end;
     flex-direction: row-reverse;
-    
 
+}
+
+@media only screen and (min-width: 600px){
+
+     .conteudo{
+        padding: 0 10%;
+    }
+
+    .probox{
+        margin-bottom: 5%;
+    }
+    
+    .proboxTitle {
+        margin-bottom: 3vw;
+    }
+    
+    .proboxTitle button{
+        height: 2vw;
+        width: 7vw;
+    
+        font-size: 1vw;
+    
+    }
+    
+    .proboxTitle h3{
+        font-size: 1.5vw;
+    }
+    
+    .proboxShowcase{
+        font-size:1.1vw;
+    }
 }

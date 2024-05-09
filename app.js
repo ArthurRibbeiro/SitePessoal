@@ -6,12 +6,12 @@ const cabecalho = {
     template: `
     
     <div class="cabecalho  row">
-        <div class="logoSpace col s5">
+        <div class="logoSpace col s5 m2">
             <img src="images/Group 2294.png" alt="">
             <img src="images/Atualiz.art.png" alt="">
 
         </div>
-        <div class="navbar lightInter col s7">
+        <div class="navbar lightInter col s10">
             <ul>
             <li><RouterLink to="/">sobre</RouterLink></li>
             <li><RouterLink to="/knowledge">profissional</RouterLink></li>
@@ -29,7 +29,7 @@ const cabecalho = {
 const rodape = {
     template: `
     
-    <div class="rodape lightInter ">
+    <div class="rodape lightInter conteudo ">
             <div id="meEncontre">
 
                     <h3 class="gradient boldTitle">me encontre</h3>
@@ -57,13 +57,13 @@ const about = {
     
     <link rel="stylesheet" href="about/about.css">
     
-    <div>
+    <div class="conteudo divisao">
 
-        <h3 class="lightInter slimTitle">A forma como <span class="gradient boldTitle">mesclamos</span> nossos <span class="gradient boldTitle">conhecimentos</span> é o que nos torna <span class="gradient boldTitle">indivíduos</span></h3>
+    <h3 class="lightInter slimTitle titulo">A forma como <span class="gradient boldTitle">mesclamos</span> nossos <span class="gradient boldTitle">conhecimentos</span> é o que nos torna <span class="gradient boldTitle">indivíduos</span></h3>
+
+    <div class=" container row">
     
-        <div class=" container row">
-    
-            <div class="half col s12">
+            <div class="half col s12 m10">
     
                 <div id="i2x1" class="i2x1 col s4 ">
 
@@ -87,7 +87,7 @@ const about = {
                     </div>
                 </div>
             </div>
-            <div class="half col s12">
+            <div class="half col s12 m10">
                 <div class=" col s4">
                     <div class="i1x1">
                         <img src="images/dev1_1x1.png" alt="">
@@ -106,23 +106,37 @@ const about = {
     
 
         
-        <div >
+        <div class="conteudo " >
+        
+         
             <h3 class="lightInter slimTitle">Arthur Ribeiro in a <span class="gradient boldTitle">nutshell</span></h3>
-            <div class="sobre lightInter texto">
-                <p>Opa! me chamo Arthur Ribeiro da Silva, tenho 21 anos e estou construindo uma carreira como desenvolvedor. Apesar disso tenho muitas inspirações, paixões, hobbies e projetos.</p>
+            <div class="conteudo row">
+             
+                <div class="sobre lightInter texto col s10 offset-s1 m4 ">
+                    <p>Opa! me chamo Arthur Ribeiro da Silva, tenho 21 anos e estou construindo uma carreira como desenvolvedor. Apesar disso tenho muitas inspirações, paixões, hobbies e projetos.</p>
+                    
+                    <p>Minha jornada no mundo da informática começou em 2019 quando por um quase engano saí do rumo de me tornar um engenheiro elétrico para ser um técnico de informática. Me identifiquei e me destaquei na parte de programação e hardware, e como junto ao curso já estagiava em manutenção de computadores segui trabalhando e me atualizando nessa parte. desde então sigo trabalhando autônomo ou com projetos paralelos. comecei com computadores simples para uso doméstico e aos poucos comecei a trabalhar com máquinas mais potentes. hoje monto estações de trabalho e principalmente maquinas para jogos com estética gamer</p>
+                    
+                </div>    
+                    
+                <div class="sobre lightInter texto col s10 offset-s1 m4">
+                    
+                    <p>durante a pandemia do covid-19 as atividades do técnico de informática foram suspensas e durante esse tempo me aprofundei no ramo da programação de forma autodidata e trabalhei de forma autonoma para suprir a demanda por  computadores da época, enquanto no tempo 
+                    livre gostava de dedicar tempo ao lado criativo, escrevendo e desenhando.</p> 
 
-                <p>Minha jornada no mundo da informática começou em 2019 quando por um quase engano saí do rumo de me tornar um engenheiro elétrico para ser um técnico de informática. Me identifiquei e me destaquei na parte de programação e hardware, e como junto ao curso já estagiava em manutenção de computadores segui trabalhando e me atualizando nessa parte. desde então sigo trabalhando autônomo ou com projetos paralelos. comecei com computadores simples para uso doméstico e aos poucos comecei a trabalhar com máquinas mais potentes. hoje monto estações de trabalho e principalmente maquinas para jogos com estética gamer</p>
-                    
-                <p>durante a pandemia do covid-19 as atividades do técnico de informática foram suspensas e durante esse tempo me aprofundei no ramo da programação de forma autodidata e trabalhei de forma autonoma para suprir a demanda por  computadores da época, enquanto no tempo 
-                livre gostava de dedicar tempo ao lado criativo, escrevendo e desenhando.</p> 
-                    
-                <p>ao fim da pandemia finalizei o técnico e pouco depois iniciei a faculdade de ADS e tive uma nova inspiração, iniciar um novo hobbie; me tornar bartender. gosto de nas horas vagas fazer drinks em família ou entre amigos, e aos fins de semana trabalhar como bartender freelance</p>
-                    
+                    <p>ao fim da pandemia finalizei o técnico e pouco depois iniciei a faculdade de ADS e tive uma nova inspiração, iniciar um novo hobbie; me tornar bartender. gosto de nas horas vagas fazer drinks em família ou entre amigos, e aos fins de semana trabalhar como bartender freelance</p>
+                     
+                </div>
+
+                <div class="sobre lightInter texto col s10 offset-s1 m4">
+                
                 <p>sou uma pessoa que gosta de explorar o lado criativo e adquirir novas habilidades, estou sempre em movimento e mesclando meus conhecimentos de diferentes areas. acredito que qualquer um pode ter um determinado conhecimento específico. mas <span class="gradient boldTitle">a forma como mes clamos nossos conhecimentos é o que nos torna indivíduos</span>, nos diferenciando.
                 por isso estou sempre me <span class="gradient boldTitle">atualizando</span></p>
                 
-            </div>     
-        </div>
+                </div>  
+            </div>  
+
+            </div>    
     
     `,
     mounted() {
@@ -190,6 +204,12 @@ const dev = {
 
         </div>
     </div>
+
+    <div id="comingSoon">
+.
+    </div>
+
+
     `,
     mounted() {
         mudaCor();
@@ -200,7 +220,12 @@ const knowledge = {
     template: `
     
     <link rel="stylesheet" href="knowledge/knowledge.css">
-    <div class="probox container">
+
+    <div class="row conteudo">
+    
+
+
+    <div class="probox container col s1 offset-s1 m5 ">
         <div class="proboxTitle row">
             <h3 class="lightInter slimTitle col s9">como <span class="gradient boldTitle">desenvolvedor</span></h3>
             <a class="col s3" href="../develop/dev.html"><button class="lightInter celula">saiba mais</button></a>
@@ -232,7 +257,7 @@ const knowledge = {
         </div>
     </div>
 
-    <div class="probox container">
+    <div class="probox container col s10 offset-s1 m5 offset-m2">
         <div class="proboxTitle row">
             <h3 class="lightInter slimTitle col s12">como <span class="gradient boldTitle">PC builder</span></h3>
             
@@ -262,7 +287,7 @@ const knowledge = {
         </div>
     </div>
 
-    <div class="probox container">
+    <div class="probox container col s1 offset-s1 m5 ">
         <div class="proboxTitle row">
             <h3 class="lightInter slimTitle col s12">como <span class="gradient boldTitle">bartender</span></h3>
             
@@ -291,7 +316,7 @@ const knowledge = {
         </div>
     </div>
 
-    <div class="probox container">
+    <div class="probox container col s10 offset-s1 m5 offset-m2">
         <div class="proboxTitle row">
             <h3 class="lightInter slimTitle col s9">como <span class="gradient boldTitle">artista</span></h3>
             <a class="col s3" href="https://www.instagram.com/fejaum.dwg?igsh=MWllemJ4NGV4bHR6eA=="><button class="lightInter celula">saiba mais</button></a>
@@ -320,6 +345,7 @@ const knowledge = {
             </div>
 
         </div>
+    </div>
     </div>
     
     `,
