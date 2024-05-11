@@ -129,6 +129,10 @@ h3{
     text-align: center;
 }
 
+#comingSoon{
+    display: none;
+}
+
 @media only screen and (min-width: 600px){
    
     
@@ -145,6 +149,29 @@ h3{
     #meEncontre h3{
         font-size: 2.5vw;
         
+    }
+
+    #comingSoon{
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        top: 0%;
+        background-color: #ffffff;
+        z-index: 2;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #comingSoonImg{
+        width: 50%;
+        
+    }
+
+    #backBtn{
+        width: 20%;
     }
 
 }

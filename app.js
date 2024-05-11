@@ -206,7 +206,10 @@ const dev = {
     </div>
 
     <div id="comingSoon">
-.
+    <img id="comingSoonImg" src="images/ComingSoon.png" alt="">
+    <img id="backBtn" src="images/backBTN.png" onclick="history. back()" alt="">
+
+
     </div>
 
 
