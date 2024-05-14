@@ -109,7 +109,7 @@ const about = {
         <div class="conteudo " >
         
          
-            <h3 class="lightInter slimTitle">Arthur Ribeiro in a <span class="gradient boldTitle">nutshell</span></h3>
+            <h4 class="lightInter slimTitle">Arthur Ribeiro in a <span class="gradient boldTitle">nutshell</span></h4>
             <div class="conteudo row">
              
                 <div class="sobre lightInter texto col s10 offset-s1 m4 ">
