@@ -153,7 +153,7 @@ const dev = {
         <div class="col s12 m5 offset-m1">
         
             <div id="repositorio" >
-                <h3 class="lightInter slimTitle">meu <span class="gradient boldTitle">repositório</span></h3>
+                <h4 class="lightInter slimTitle">meu <span class="gradient boldTitle">repositório</span></h4>
 
                 <div id="gitHubBtn">
                     <div></div>
@@ -165,34 +165,27 @@ const dev = {
 
     
             <div id="tecnologias">
-                <h3 class="lightInter slimTitle">minhas <span class="gradient boldTitle">tecnologias</span></h3>
+                <h4 class="lightInter slimTitle">minhas <span class="gradient boldTitle">tecnologias</span></h4>
 
                 
-                <div class="lightInter ">
-                    
-                        <div class="celula col s5 m5 offset-m1  ">Java</div>
-                        <div class="celula col s5 offset-s2 m5 offset-m1 ">Python</div>
-                    
-                    
-                    
-                        <div class="celula col s5 m5 offset-m1">JavaScript</div>
-                        <div class="celula col s5 offset-s2 m5 offset-m1">Vue</div>
-                    
+                <div class="lightInter col s12 metadeTopicos">
 
-                    
-                        <div class="celula col s5 m5 offset-m1 ">Materialize</div>
-                        <div class="celula col s5 offset-s2 m5 offset-m1 ">Ionic</div>
-                    
+                    <div>
+                        <div class="celula   ">Java</div>
+                        <div class="celula ">JavaScript</div>
+                        <div class="celula  ">Materialize</div>
+                        <div class="celula ">Node</div>
+                        <div class="celula  ">Git</div>
+                    </div>
 
-                    
-                        <div class="celula col s5 m5 offset-m1">Node</div>
-                        <div class="celula col s5 offset-s2 m5 offset-m1 ">React</div>
-                    
 
-                    
-                        <div class="celula col s5 m5 offset-m1 ">Git</div>
-                        <div class="celula col s5 offset-s2 m5 offset-m1 ">Docker</div>
-                    
+                    <div>
+                        <div class="celula ">Python</div>
+                        <div class="celula">Vue</div>
+                        <div class="celula ">Ionic</div>
+                        <div class="celula ">React</div>
+                        <div class="celula ">Docker</div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -200,7 +193,7 @@ const dev = {
         <div class="col s12 m5 offset-m1">
     
             <div id="projeto">
-                <h3 class="lightInter slimTitle">meus <span class="gradient boldTitle">projetos</span></h3>
+                <h4 class="lightInter slimTitle">meus <span class="gradient boldTitle">projetos</span></h4>
                 <div class="projcard container">
                     <div class="projimg">
                         <img src="images/Atualiz.art_multi.png" alt="">
@@ -242,13 +235,13 @@ const knowledge = {
 
 
     <div class="probox container col s10 offset-s1 m5 ">
-        <div class="proboxTitle row">
+        <div class="proboxTitle col s12">
             <h3 class="lightInter slimTitle col s9">como <span class="gradient boldTitle">desenvolvedor</span></h3>
             <a class="col s3" href="../develop/dev.html"><button class="lightInter celula">saiba mais</button></a>
             
         </div>
         <div class="lightInter proboxShowcase">
-            <div class="half row">
+            <div class="half col s12">
                 <div class ="col s6">
                     <span>tendo iniciado meus estudos em 2019 descobri ser a minha paixão. relembrando e realizando também um sonho de infancia</span>
 
@@ -257,7 +250,7 @@ const knowledge = {
                 <img src="images/dev1_1x1.png" alt="">
                 </div>
             </div>
-            <div class="half row">
+            <div class="half col s12">
 
             <div class ="col s6">
                     <img src="images/dev2_1x1.png" alt="">
@@ -274,12 +267,12 @@ const knowledge = {
     </div>
 
     <div class="probox container col s10 offset-s1 m5 offset-m2">
-        <div class="proboxTitle row">
+        <div class="proboxTitle col s12">
             <h3 class="lightInter slimTitle col s12">como <span class="gradient boldTitle">PC builder</span></h3>
             
         </div>
         <div class="lightInter proboxShowcase">
-            <div class="half row">
+            <div class="half col s12">
                 <div class="col s6">
                     <span>partindo de 2019 em um estágio se tornou minha fonte de renda autônoma durante a pandemia e uma das atividades mais prazerozas e estressantes ao mesmo tempo</span>
 
@@ -288,7 +281,7 @@ const knowledge = {
                     <img src="images/pc4_1x1.jpg" alt="">
                 </div>
             </div>
-            <div class="half row">
+            <div class="half col s12">
                 
                     <div class="col s6">
                         <img src="images/pc3_1x1.jpg" alt="">
@@ -304,12 +297,12 @@ const knowledge = {
     </div>
 
     <div class="probox container col s10 offset-s1 m5 ">
-        <div class="proboxTitle row">
+        <div class="proboxTitle col s12">
             <h3 class="lightInter slimTitle col s12">como <span class="gradient boldTitle">bartender</span></h3>
             
         </div>
         <div class="lightInter proboxShowcase">
-            <div class="half row">
+            <div class="half col s12">
                 <div class="col s6">
                     <span>desde 2023 admirava as habilidades e o carisma que o bartender carrega. comecei a fazer drinks em família e trabalhar como freelance nos fins de semana</span>
 
@@ -318,7 +311,7 @@ const knowledge = {
                 <img src="images/bartend2_1x1.jpeg" alt="">
                 </div>
             </div>
-            <div class="half row">
+            <div class="half col s12">
                 <div class="col s6">
                     <img src="images/bartend3_1x1.jpeg" alt="">
                 </div>
@@ -333,13 +326,13 @@ const knowledge = {
     </div>
 
     <div class="probox container col s10 offset-s1 m5 offset-m2">
-        <div class="proboxTitle row">
+        <div class="proboxTitle col s12">
             <h3 class="lightInter slimTitle col s9">como <span class="gradient boldTitle">artista</span></h3>
             <a class="col s3" href="https://www.instagram.com/fejaum.dwg?igsh=MWllemJ4NGV4bHR6eA=="><button class="lightInter celula">saiba mais</button></a>
             
         </div>
         <div class="lightInter proboxShowcase">
-            <div class="half row">
+            <div class="half col s12">
                 <div class="col s6">
                     <span>Desenho desde 2016 mas apenas em 2019 tive um foco maior em dedicar o tempo livre para melhorar o traço. subi um perfil no instagram postando com frequencia e criando uma comunidade</span>
 
@@ -348,7 +341,7 @@ const knowledge = {
                 <img src="images/cgDraw_1x1.jpeg" alt="">
                 </div>
             </div>
-            <div class="half row">
+            <div class="half col s12">
 
                 <div class="col s6">
                     <img src="images/cgDraw2_1x1.jpeg" alt="">
