@@ -2,8 +2,9 @@
     background-color: #10112F;
     color: #D4EAFF;
     
-    padding: 15px;
     border-radius: 8px;
+
+    margin: 0 10%;
 
     font-size: 30px;
 
@@ -89,5 +90,17 @@
 }
 
 @media only screen and (min-width: 600px){
+    h3{
+        font-size: 2.5vw;
+
+        margin: 20px 0;
+    }
+
+    .celula{
+        height: 3vw;
+        font-size: 1.6vw;
+    }
+
+
     
 }

@@ -29,7 +29,7 @@ const cabecalho = {
 const rodape = {
     template: `
     
-    <div class="rodape lightInter conteudo ">
+    <div class="rodape lightInter ">
             <div id="meEncontre">
 
                     <h3 class="gradient boldTitle">me encontre</h3>
@@ -148,61 +148,74 @@ const dev = {
     template: `
     
     <link rel="stylesheet" href="develop/dev.css">
-    <div id="repositorio">
-        <h3 class="lightInter slimTitle">meu <span class="gradient boldTitle">repositório</span></h3>
 
-        <div id="gitHubBtn" class="row container">
-            <div></div>
-            <a href="https://github.com/ArtthurRibbeiro"><div><h4 class="slimTitle lightInter">ArtthurRibbeiro</h4></div></a>
-        </div>
-
-    </div>
-    
-    <div id="tecnologias">
-        <h3 class="lightInter slimTitle">minhas <span class="gradient boldTitle">tecnologias</span></h3>
-
+    <div class ="row">
+        <div class="col s12 m5 offset-m1">
         
-        <div class="lightInter row container">
-            
-                <div class="celula col s5 m2 ">Java</div>
-                <div class="celula col s5 offset-s2 m2 offset-m1 ">Python</div>
-            
-            
-            
-                <div class="celula col s5 m2 offset-m1">JavaScript</div>
-                <div class="celula col s5 offset-s2 m2 offset-m1 ">Vue</div>
-            
+            <div id="repositorio" >
+                <h3 class="lightInter slimTitle">meu <span class="gradient boldTitle">repositório</span></h3>
 
-            
-                <div class="celula col s5 m2">Materialize</div>
-                <div class="celula col s5 offset-s2 m2 offset-m1 ">Ionic</div>
-            
+                <div id="gitHubBtn">
+                    <div></div>
+                    <a href="https://github.com/ArtthurRibbeiro"><div><h4 class="slimTitle lightInter">ArtthurRibbeiro</h4></div></a>
+                </div>
 
-            
-                <div class="celula col s5 m2 offset-m1">Node</div>
-                <div class="celula col s5 offset-s2 m2 offset-m1">React</div>
-            
-
-            
-                <div class="celula col s5 m2">Git</div>
-                <div class="celula col s5 offset-s2 m2 offset-m1">Docker</div>
-            
-        </div>
-    </div>
-    <div id="projeto">
-        <h3 class="lightInter slimTitle">meus <span class="gradient boldTitle">projetos</span></h3>
-        <div class="projcard container">
-            <div class="projimg">
-                <img src="images/Atualiz.art_multi.png" alt="">
-            </div>
-            <div class="projdesc lightInter">
-                <h4 class="gradient boldTitle">Website pessoal</h4>
-                <p class=" texto">queria desenvolver um lugar onde pudesse expor não só meu portifólio e trabalho, mas quem sou e minhas multiplas áreas de atividade. gostaria de poder mostrar meu lado criativo e hiperativo quando o assunto é novas habilidades. Espero que com isso tenha conseguido passar essa pequena parte de mim </p>
-                <button class="projetoBtn celula lightInter ">Sobre</button>
             </div>
             
 
+    
+            <div id="tecnologias">
+                <h3 class="lightInter slimTitle">minhas <span class="gradient boldTitle">tecnologias</span></h3>
+
+                
+                <div class="lightInter ">
+                    
+                        <div class="celula col s5 m5 offset-m1  ">Java</div>
+                        <div class="celula col s5 offset-s2 m5 offset-m1 ">Python</div>
+                    
+                    
+                    
+                        <div class="celula col s5 m5 offset-m1">JavaScript</div>
+                        <div class="celula col s5 offset-s2 m5 offset-m1">Vue</div>
+                    
+
+                    
+                        <div class="celula col s5 m5 offset-m1 ">Materialize</div>
+                        <div class="celula col s5 offset-s2 m5 offset-m1 ">Ionic</div>
+                    
+
+                    
+                        <div class="celula col s5 m5 offset-m1">Node</div>
+                        <div class="celula col s5 offset-s2 m5 offset-m1 ">React</div>
+                    
+
+                    
+                        <div class="celula col s5 m5 offset-m1 ">Git</div>
+                        <div class="celula col s5 offset-s2 m5 offset-m1 ">Docker</div>
+                    
+                </div>
+            </div>
         </div>
+
+        <div class="col s12 m5 offset-m1">
+    
+            <div id="projeto">
+                <h3 class="lightInter slimTitle">meus <span class="gradient boldTitle">projetos</span></h3>
+                <div class="projcard container">
+                    <div class="projimg">
+                        <img src="images/Atualiz.art_multi.png" alt="">
+                    </div>
+                    <div class="projdesc lightInter">
+                        <h4 class="gradient boldTitle">Website pessoal</h4>
+                        <p class=" texto">queria desenvolver um lugar onde pudesse expor não só meu portifólio e trabalho, mas quem sou e minhas multiplas áreas de atividade. gostaria de poder mostrar meu lado criativo e hiperativo quando o assunto é novas habilidades. Espero que com isso tenha conseguido passar essa pequena parte de mim </p>
+                        <button class="projetoBtn celula lightInter ">Sobre</button>
+                    </div>
+                    
+
+                </div>
+            </div>
+        </div>
+
     </div>
 
     <div id="comingSoon">
@@ -228,7 +241,7 @@ const knowledge = {
     
 
 
-    <div class="probox container col s1 offset-s1 m5 ">
+    <div class="probox container col s10 offset-s1 m5 ">
         <div class="proboxTitle row">
             <h3 class="lightInter slimTitle col s9">como <span class="gradient boldTitle">desenvolvedor</span></h3>
             <a class="col s3" href="../develop/dev.html"><button class="lightInter celula">saiba mais</button></a>
@@ -290,7 +303,7 @@ const knowledge = {
         </div>
     </div>
 
-    <div class="probox container col s1 offset-s1 m5 ">
+    <div class="probox container col s10 offset-s1 m5 ">
         <div class="proboxTitle row">
             <h3 class="lightInter slimTitle col s12">como <span class="gradient boldTitle">bartender</span></h3>
             
