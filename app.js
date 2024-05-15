@@ -369,7 +369,7 @@ const contato = {
     template:`
     <link rel="stylesheet" href="contato/contato.css">
 
-    <div class="contato">
+    <div class="contatoBody">
 
         <div class="contatoTitle ">
         <h3 class="lightInter slimTitle titulo">à moda  <span class="gradient boldTitle">antiga?</span></h3>

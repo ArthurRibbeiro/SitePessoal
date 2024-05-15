@@ -8,6 +8,15 @@ body{
     background: linear-gradient(to bottom right, #D4EAFF, #c7c1ff);
     
 }
+html, body, #app{
+    height: 100%;
+}
+
+#app{
+    display: flex;
+    flex-direction: column;
+     justify-content: space-between;
+}
 
 a{
     color: inherit;
