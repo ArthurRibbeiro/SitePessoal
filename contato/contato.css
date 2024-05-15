@@ -1,0 +1,90 @@
+.contato{
+margin: 25px ;
+
+}
+.contatoTitle>*{
+    margin: 0;
+    
+}
+
+.contatoTitle{
+    margin-bottom: 40px;
+}
+
+.contatoTitle h3{
+    font-size: 27px;
+
+}
+
+.contatoTitle h4{
+    font-size: 20px;
+    margin-left: 50px;
+
+}
+
+.inputCombo{
+    margin: 0 10px;
+}
+
+.inputCombo label{
+    font-size: 17px;
+}
+
+.inputCombo textarea{
+    height: 130px;
+    margin-top: 10px;
+
+}
+
+.inputButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.inputButton button{
+
+    width: 100%;
+
+    padding: 12px;
+
+    color: white;
+
+    border-radius: 5px;
+    border: 0;
+
+    font-size: 20px;
+    font-weight: 100;
+}
+
+
+
+@media only screen and (min-width: 600px){
+
+    .formulario{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .infoForm{
+        width: 35%;
+    }
+
+    .contatoTitle{
+        margin: 40px;
+    }
+    
+    .contatoTitle h3{
+        font-size: 30px;
+    
+    }
+    
+    .contatoTitle h4{
+        font-size: 23px;
+        margin-left: 100px;
+    
+    }
+    
+
+}

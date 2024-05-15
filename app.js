@@ -15,7 +15,7 @@ const cabecalho = {
             <ul>
             <li><RouterLink to="/">sobre</RouterLink></li>
             <li><RouterLink to="/knowledge">profissional</RouterLink></li>
-            <li><RouterLink to="/dev">contato</RouterLink></li>
+            <li><RouterLink to="/contato">contato</RouterLink></li>
             </ul>
         </div>
     </div>
@@ -47,7 +47,11 @@ const rodape = {
             </div>
     </div>
 
-    `
+    `,
+    mounted(){
+        
+
+    }
 }
 
 //templates das páginas de conteúdo
@@ -214,8 +218,6 @@ const dev = {
     <div id="comingSoon">
     <img id="comingSoonImg" src="images/ComingSoon.png" alt="">
     <img id="backBtn" src="images/backBTN.png" onclick="history. back()" alt="">
-
-
     </div>
 
 
@@ -237,7 +239,7 @@ const knowledge = {
     <div class="probox container col s10 offset-s1 m5 ">
         <div class="proboxTitle col s12">
             <h3 class="lightInter slimTitle col s9">como <span class="gradient boldTitle">desenvolvedor</span></h3>
-            <a class="col s3" href="../develop/dev.html"><button class="lightInter celula">saiba mais</button></a>
+            <RouterLink to="/dev" class="col s3"><button class="lightInter celula">saiba mais</button></RouterLink>
             
         </div>
         <div class="lightInter proboxShowcase">
@@ -363,6 +365,68 @@ const knowledge = {
     }
 }
 
+const contato = {
+    template:`
+    <link rel="stylesheet" href="contato/contato.css">
+
+    <div class="contato">
+
+        <div class="contatoTitle ">
+        <h3 class="lightInter slimTitle titulo">à moda  <span class="gradient boldTitle">antiga?</span></h3>
+            <h4>me mande uma  <span class="gradient boldTitle">mensagem</span></h4>
+        </div>
+
+        <div class="formulario">
+            <div class="infoForm">
+                <div  class="inputCombo">
+                    <label class="lightInter gradient boldTitle" for="">Nome Completo</label>
+                    <input type="text">
+                </div>
+                
+                <div  class="inputCombo">
+                    <label class="lightInter gradient boldTitle" for="">E-mail</label>
+                    <input type="text">
+                </div>
+                
+                <div  class="inputCombo">
+                    <label class="lightInter gradient boldTitle" for="">Assunto</label>
+                    <input type="text">
+                </div>
+            </div>
+
+            <div class="inputCombo infoForm">
+                <label class="lightInter gradient boldTitle" for="">Mensagem</label>
+                <textarea name="" id="" cols="30" rows="10"></textarea>
+
+                <div class="inputButton">
+                <button class="celula">Enviar</button>    
+                </div>
+            
+            </div>
+
+            </div>
+            
+
+            
+
+
+        <div id="comingSoon">
+        <img id="comingSoonImg" src="images/ComingSoon.png" alt="">
+        <img id="backBtn" src="images/backBTN.png" onclick="history. back()" alt="">
+        </div>
+
+    </div>
+
+    
+
+    
+    
+    `,
+    mounted() {
+        mudaCor();
+    }
+}
+
 //Estabelecimento de rotas
 
 
@@ -372,7 +436,8 @@ const router = VueRouter.createRouter({
         { path: '/', component: about },
         { path: '/about', component: about },
         { path: '/knowledge', component: knowledge },
-        { path: '/dev', component: dev }
+        { path: '/dev', component: dev },
+        { path: '/contato', component: contato }
     ]
 })
 
