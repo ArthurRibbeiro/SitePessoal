@@ -23,7 +23,7 @@ margin: 25px ;
 }
 
 .inputCombo{
-    margin: 0 10px;
+    margin: 0 10px 20px 10px;
 }
 
 .inputCombo label{
@@ -31,7 +31,7 @@ margin: 25px ;
 }
 
 .inputCombo textarea{
-    height: 130px;
+    height: 170px;
     margin-top: 10px;
 
 }
@@ -84,6 +84,9 @@ margin: 25px ;
         font-size: 23px;
         margin-left: 100px;
     
+    }
+    .inputCombo{
+        margin: 0 10px 30px 10px;
     }
     
 
